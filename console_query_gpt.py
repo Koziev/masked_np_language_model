@@ -147,7 +147,7 @@ def extract_nps(parsing):
 
 if __name__ == '__main__':
     generator = RugptGenerator()
-    generator.load('/home/inkoziev/sber/ll-experiments/ll_skills/horo/np_augment/tmp/rugpt_model')
+    generator.load('./tmp/rugpt_model')
 
     print('Loading models...')
     model = Model.load('/home/inkoziev/polygon/GramEval2020/tmp/udpipe_syntagrus.model')
